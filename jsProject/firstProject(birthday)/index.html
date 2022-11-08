@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <title>firstProject</title>
+  </head>
+  <body class="background">
+    <div class="container">
+      <div class="first">
+        <h2 class="text-center">Challenge 1: Your Age in days</h2>
+      </div>
+
+      <div class="container second">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 text-center">
+            <button
+              type="button"
+              class="btn btn-outline-secondary text-dark"
+              onclick="ageInDays()"
+            >
+              Click me
+            </button>
+          </div>
+          <div class="col-12 text-center">
+            <button
+              type="button"
+              class="btn btn-outline-secondary text-dark"
+              onclick="reset()"
+            >
+              Reset
+            </button>
+          </div>
+          <div class="col-12 text-center" id="result">
+            <h1 id="answer"></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  background-color: rgba(197, 66, 236, 0.3);
+}
+
+section .main {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0 !important;
+  background-color: rgba(100, 148, 237, 0.579);
+}
+
+.main .top-part {
+  height: 20vh;
+  text-align: center;
+}
+.main .top-part .heading {
+  padding: 10px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.main .top-part .heading h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.main .top-part .button-part {
+  padding: 20px 0;
+  border-bottom: 1px solid black;
+}
+.main .top-part .button-part .btn {
+  border: 1px solid black;
+  font-size: 20px;
+  background-color: rgba(197, 66, 236, 0.3);
+  font-weight: 500;
+}
+.main .top-part .button-part .btn:hover {
+  background-color: rgba(100, 148, 237, 0.579);
+}
+
+.main .body-part {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .body-part img {
+  padding: 15px;
+  /* border: 1px solid black; */
+  margin: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}

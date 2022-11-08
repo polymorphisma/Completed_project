@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgba(51, 0, 220, 0.5) !important;
+}
+
+.container {
+  max-width: 800px !important;
+}
+
+.search-and-add {
+  max-width: 700px;
+}
+
+.heading .display-1 {
+  font-weight: 500;
+  font-size: 60px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.icons-group .icons {
+  font-size: 20px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.icons-group .bi-plus {
+  font-size: 35px;
+}
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgba(0, 0, 0, 0.8);
+  max-width: 700px;
+}
+
+.comp-uncomp {
+  cursor: pointer;
+}
+.comp-uncomp .d-inline-block {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* .icons-group .bi-plus {
+  font-size: 35px;
+} */
+
+.delete,
+.check {
+  cursor: pointer !important;
+  color: white;
+}
+
+.check {
+  /* font-size: 20px; */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+span {
+  cursor: context-menu;
+}
+
+.todos li {
+  background: rgba(51, 0, 220, 0.3);
+}
+
+.todos li span {
+  color: white !important;
+}
+
+ul .taskCompleted {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}

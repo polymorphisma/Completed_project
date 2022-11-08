@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  max-height: 100vh;
+  background-color: black;
+}
+
+.background {
+  background-color: black;
+}
+
+body .container {
+  height: 100vh;
+}
+
+body .container .first {
+  height: 20%;
+  background-color: rgb(152, 177, 225);
+}
+
+body .container .first h2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+body .container .second {
+  height: 80%;
+  background: rgb(192, 135, 245);
+}
+
+body .container .second .row {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .second .btn {
+  font-size: 30px;
+  border-color: black;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 10px 20px;
+  margin: 50px;
+  border: 1px dotted black;
+}
+body .container .second .btn:hover {
+  color: white;
+  background-color: rgb(152, 177, 225);
+}
+
+.result {
+  font-size: 20px;
+}

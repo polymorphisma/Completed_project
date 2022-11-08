@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@700&family=Kanit&display=swap");
+
+/* @import url("https://fonts.googleapis.com/css2?family=Assistant:wght@700;800&family=Kanit&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Assistant", sans-serif;
+  font-family: "Kanit", sans-serif;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+}

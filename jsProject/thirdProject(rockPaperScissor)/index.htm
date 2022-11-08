@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>third project</title>
+  </head>
+  <body>
+    <section>
+      <div class="container main">
+        <div class="top-part">
+          <div class="heading">
+            <h2 class="text-center">Challenge 3: Rock, Paper, Scissors</h2>
+          </div>
+        </div>
+        <div class="body-part text-center" id="flex-box-rps-div">
+          <div id="scissors-div">
+            <img
+              id="scissors"
+              src="./img/scissor.jpg"
+              alt="..."
+              height="300"
+              width="300"
+              onclick="rpsClick(this)"
+            />
+            <p class="inner-heading">Scissor</p>
+          </div>
+
+          <div id="paper-div">
+            <img
+              id="paper"
+              src="./img/paper.jpg"
+              alt="..."
+              height="300"
+              width="300"
+              onclick="rpsClick(this)"
+            />
+            <p class="inner-heading" id="paper">Paper</p>
+          </div>
+          <div id="rock-div">
+            <img
+              id="rock"
+              src="./img/rock.jpg"
+              alt="..."
+              height="300"
+              width="300"
+              onclick="rpsClick(this)"
+            />
+            <p class="inner-heading" id="rock">Rock</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

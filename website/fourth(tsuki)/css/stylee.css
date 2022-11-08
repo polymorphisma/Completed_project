@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Raleway:wght@100;600&family=Titillium+Web:wght@200&display=swap");
+
+@import url("//db.onlinewebfonts.com/c/3b114d63b02026b0c7077f0e55a95dda?family=Avenir+Next+Rounded+Pro");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&family=Raleway:wght@100&family=Titillium+Web:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Montserrat", "sans-serif";
+}
+
+p {
+  font-family: "Montserrat", "sans-serif";
+}
+/* -------------------------------head------------------------------- */
+
+header .promo {
+  font-size: 11px;
+  background-color: #000000;
+}
+
+header .promo strong,
+.promo span {
+  color: #ffffff;
+  font-family: "Avenir Next Rounded", sans-serif;
+}
+
+header .promo strong {
+  font-size: 600;
+}
+
+/* -------------------------------header part------------------------------- */
+
+#header a {
+  text-decoration: none;
+}
+
+#header .icons .bi {
+  color: #000000;
+  font-size: 20px;
+}
+
+#header .icons .bi:hover {
+  color: #000000;
+  opacity: 50%;
+}
+
+#header .offcanvas-header input {
+  height: 100px;
+  width: 100vw;
+  border: none;
+}
+
+#header .offcanvas-end .offcanvas-header,
+#header .offcanvas-start .offcanvas-header {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Avenir Next Rounded", sans-serif;
+  color: black;
+}
+
+#header .offcanvas-start .offcanvas-body input {
+  width: 40vw;
+  height: 50px;
+  padding: 5px;
+  margin: 3px;
+  border: black dotted 0.1px;
+}
+
+#header .btn-primary {
+  background: black;
+  opacity: 80%;
+  width: 50% !important;
+}
+#header .btn-primary:hover {
+  background: black;
+
+  opacity: 50%;
+}
+/* ------------------------------navbar------------------------------ */
+
+#nav-bar {
+  margin-top: 20px;
+  border-top: #000000 solid 2px;
+  border-bottom: #000000 solid 2px;
+}
+
+#nav-bar .navbar-toggler {
+  outline: none !important;
+}
+
+#nav-bar a {
+  text-decoration: none;
+}
+
+#nav-bar .container .bi {
+  color: #000000;
+}
+#nav-bar .container .bi:hover {
+  opacity: 50%;
+}
+
+#nav-bar ul li a {
+  color: #000000;
+}
+#nav-bar ul li a:hover {
+  color: #0e7aff;
+  opacity: 50%;
+}
+
+/* ----------------------------------- shop_tsuki ----------------------------------- */
+#shop_tsuki {
+  background-image: url("/fourth/images/background\ blue\ and\ yellow.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+#shop_tsuki .btn-outline-light {
+  padding: 10px 40px;
+  border-radius: 0 !important;
+}
+
+#shop_tsuki .boton {
+  padding-bottom: 100px;
+}
+
+.gap {
+  height: 13vh;
+}
+
+/* ----------------------------------meet_mischief---------------------------------- */
+
+#meet_mischief {
+  background: rgb(170, 220, 236);
+  font-family: "Montserrat", "sans-serif";
+}
+
+/* ----------------------------------meet_mischief---------------------------------- */
+
+#cloths .card p {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 10px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#cloths img {
+  border: #000000 solid 0.5px;
+  border-left: none !important;
+  border-radius: 0 !important;
+}
+#cloths .card {
+  border: #000000 solid 0.5px;
+  border-left: none !important;
+  border-top: none !important;
+  border-radius: 0 !important;
+}
+
+#cloths .col-lg-2,
+.col-md-4 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#cloths .carousel-item .card p {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 10px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#cloths .carousel-item .col-6 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* -----------------------shop_the_look----------------------- */
+
+#shop_the_look {
+  background: rgb(170, 220, 236);
+  font-family: "Montserrat", "sans-serif";
+}
+
+#shop_the_look p {
+  font-size: 15px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+#shop_the_look h3 {
+  font-size: 25px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+#shop_the_look .card {
+  border: #000000 solid 0.5px;
+  border-radius: 0;
+}
+#shop_the_look .card img {
+  border-bottom: #000000 solid 0.5px;
+  /* border-top: none !important; */
+}
+
+@media screen and (max-width: 768px) {
+  #shop_the_look .images img {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  #shop_the_look .images img {
+    width: 100%;
+  }
+}
+
+/* ----------------------animation---------------------- */
+
+#animation {
+  background-image: url("/fourth/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60%;
+  position: absolute;
+  width: 100%;
+}
+
+#animation .btn-outline-light {
+  padding: 10px 40px;
+  border-radius: 0 !important;
+}
+
+#animation .content {
+  color: white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Montserrat", "sans-serif";
+  height: 100%;
+  padding-left: 80px;
+}
+
+#animation h2,
+p {
+  /* font-size: 200; */
+  font-weight: 300;
+  padding: 10px;
+}
+
+/* -------------------------------felixandmarzia------------------------------- */
+
+#felixandmarzia {
+  background: rgb(255, 216, 223);
+  /* max-height: 90vh !important; */
+}
+
+#felixandmarzia .container-fluid {
+  padding: 0 !important;
+}
+
+#felixandmarzia .fmp {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#felixandmarzia .fmimg {
+  height: 60px;
+}
+
+#felixandmarzia .h6_p {
+  display: inline-block;
+
+  margin: 0 !important;
+  margin-left: 10px !important;
+  padding: 0%;
+}
+
+#felixandmarzia .fmh6,
+.fmps {
+  padding: 0;
+  margin: 0%;
+}
+
+#felixandmarzia .random {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+#felixandmarzia .fmh6 {
+  font-weight: 900;
+}
+#felixandmarzia .fmps {
+  font-size: 15px;
+}
+
+/* ---------------------------------footer--------------------------------- */
+
+#footer {
+  padding: 20px;
+  background: black;
+  color: white;
+  padding-left: 5px !important;
+}
+
+#footer .fh {
+  font-size: 12px;
+}
+
+#footer .fp {
+  font-size: 12px;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
+
+#footer .logo {
+  color: white;
+  font-size: 20px;
+}
+
+#footer .tags {
+  margin-bottom: 40px;
+}
+
+#footer .fnsh {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#footer .fnsp {
+  font-size: 14px;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
+}
+
+#footer .fnsinp {
+  width: 70vw;
+  height: 40px;
+  background-color: white;
+  border: white;
+}
+
+#footer .btn {
+  background-color: black;
+  border: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 0;
+  height: 40px;
+}
+#footer .btn:hover {
+  background-color: white;
+  border: white;
+  color: black;
+}
+#footer form {
+  display: flex;
+  justify-content: center;
+}
+
+#footer a {
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+}
+
+#footer a i {
+  color: white;
+}
+#footer a i:hover {
+  color: white;
+  opacity: 60%;
+}
+
+#footer .news_social {
+  margin-bottom: 50px;
+}
+
+#footer .last_links ul {
+  list-style-type: none !important;
+  color: white;
+
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+#footer .last_links ul li {
+  font-size: 10px;
+  display: inline;
+  text-align: start;
+}
+#footer .last_links ul li a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  display: inline-block;
+}
+#footer .last_links ul li a:hover {
+  color: rgb(151, 227, 255);
+}

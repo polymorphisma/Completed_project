@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: rgba(60, 59, 65, 0.5);
+}
+
+.heading {
+  background: white;
+  color: rgb(0, 0, 0);
+  /* font-size: 30; */
+}
+
+.heading h2 {
+  font-weight: 400;
+}
+
+.row {
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+}
+
+.image {
+  height: 50%;
+  width: 50%;
+}
+
+.form-check {
+  text-align: start;
+  padding: 0px 160px;
+}
+
+.form-check-label {
+  font-size: 25px;
+}
+
+hr {
+  border: 2px solid rgb(0, 0, 0);
+}
+.button {
+  margin: 20px;
+}
+.col-lg-6 {
+  margin-bottom: 30px;
+}
+
+.button .btn {
+  font-size: 30px;
+  font-weight: 300;
+}

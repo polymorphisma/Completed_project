@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  background-color: rgba(240, 128, 128, 0.3);
+}
+
+section .main {
+  width: 80vw;
+}
+
+section .main .heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+  background-color: rgb(164, 162, 211);
+}
+
+section .main .heading h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.body-part img {
+  padding: 20px;
+  /* background-color: #5294d1; */
+}
+
+.body-part img:hover {
+  box-shadow: 0px 10px 50px rgb(0, 0, 0);
+}
+
+.body-part .inner-heading {
+  font-weight: 500;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.body-part {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(164, 162, 211);
+  height: 80vh;
+}
+
+@media screen and (max-width: 1150px) {
+  .body-part img {
+    height: 200px !important;
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 774px) {
+  .body-part img {
+    height: 150px !important;
+    width: 150px !important;
+  }
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    rgba(181, 198, 208, 1) 0%,
+    rgba(224, 81, 112, 1) 100%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+  /* direction: ro; */
+}
+
+.clock div {
+  display: inline-block;
+  min-width: 5rem;
+  /* background: white; */
+  color: black;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  border-radius: 10%;
+  margin: 5px;
+}
+
+.clock .milisecond {
+  font-size: 20px;
+  margin: 0px !important;
+  min-width: none !important;
+}
+
+.clock .minute::before,
+.second::before {
+  content: ":";
+  margin: 5px;
+}
+
+.clock .milisecond::before {
+  content: ".";
+}
